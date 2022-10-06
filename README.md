@@ -10,20 +10,20 @@
 
 - [x] Não deve ser possível cadastrar um carro com uma placa já existente
 - [x] O carro deve ser cadastrado, por padrão com disponibilidade
-      _- [] O usuário responsável pelo cadastro deve ser um usuário administrador_
+- [x] O usuário responsável pelo cadastro deve ser um usuário administrador
 
 ## Listagem de carros
 
 **RF** => Requisitos Funcionais
 
-- [] Deve ser possível listar todos carros disponíveis
-- [] Deve ser possível listar todos carros disponíveis pelo nome da categoria
-- [] Deve ser possível listar todos carros disponíveis pelo nome da marca
-- [] Deve ser possível listar todos carros disponíveis pelo nome do carro
+- [x] Deve ser possível listar todos carros disponíveis
+- [x] Deve ser possível listar todos carros disponíveis pelo nome da categoria
+- [x] Deve ser possível listar todos carros disponíveis pelo nome da marca
+- [x] Deve ser possível listar todos carros disponíveis pelo nome do carro
 
 **RN** => Regras de negócios
 
-- [] O usuário não precisa está logado no sistema
+- [x] O usuário não precisa está logado no sistema
 
 ## Cadastro de especificação no carro
 
