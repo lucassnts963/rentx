@@ -3,13 +3,13 @@ import 'express-async-errors';
 import cors from 'cors';
 import swaggerUi from 'swagger-ui-express';
 
-import './database';
-import './shared/container';
+import '../typeorm';
+import '@shared/container';
 
-import { router } from './routes';
+import { router } from '@shared/infra/http/routes';
 
-import swaggerFile from './swagger.json';
-import { AppError } from './errors/AppError';
+import swaggerFile from '../../../swagger.json';
+import { AppError } from '@shared/errors/AppError';
 
 const app = express();
 
