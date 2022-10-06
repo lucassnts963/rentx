@@ -4,8 +4,8 @@ import { hash } from 'bcrypt';
 import {
   ICreateUserDTO,
   IUsersRepository,
-} from '../../repositories/IUsersRepository';
-import { AppError } from '../../../../errors/AppError';
+} from '@modules/accounts/repositories/IUsersRepository';
+import { AppError } from '@errors/AppError';
 
 @injectable()
 class CreateUserUseCase {
