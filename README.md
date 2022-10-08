@@ -29,29 +29,29 @@
 
 **RF** => Requisitos Funcionais
 
-- [ ] Deve ser possível cadastrar uma especificação para um carro
+- [x] Deve ser possível cadastrar uma especificação para um carro
 
 **RN** => Regras de negócios
 
-- [ ] Não deve ser possível cadastrar uma especificação para um carro não cadastrado
-- [ ] Não deve ser possível cadastrar uma especificação já existente para um mesmo carro
-- [ ] O usuário responsável pelo cadastro deve ser um usuário administrador
+- [x] Não deve ser possível cadastrar uma especificação para um carro não cadastrado
+- [x] Não deve ser possível cadastrar uma especificação já existente para um mesmo carro
+- [x] O usuário responsável pelo cadastro deve ser um usuário administrador
 
 ## Cadastro de imagem do carro
 
 **RF** => Requisitos Funcionais
 
-- [ ] Deve ser possível cadastrar a imagem do carro
-- [ ] Deve ser possível listar todos os carros
+- [x] Deve ser possível cadastrar a imagem do carro
+- [x] Deve ser possível listar todos os carros
 
 **RNF** => Requisitos não funcionais
 
-- [ ] Utilizar o multer para upload de arquivos
+- [x] Utilizar o multer para upload de arquivos
 
 **RN** => Regras de negócios
 
-- [ ] O usuário deve poder cadastrar mais de uma imagem para o mesmo carro
-- [ ] O usuário responsável pelo cadastro deve ser um usuário administrador
+- [x] O usuário deve poder cadastrar mais de uma imagem para o mesmo carro
+- [x] O usuário responsável pelo cadastro deve ser um usuário administrador
 
 ## Aluguel de carro
 
