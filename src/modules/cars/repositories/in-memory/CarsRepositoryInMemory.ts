@@ -10,6 +10,10 @@ class CarsRepositoryInMemory implements ICarsRepository {
     this.cars = [];
   }
 
+  async findById(id: string): Promise<Car> {
+    return this.cars.find(car => car.id === id);
+  }
+
   async findAvailable(
     brand?: string,
     category_id?: string,
@@ -37,6 +41,7 @@ class CarsRepositoryInMemory implements ICarsRepository {
   }
 
   async create({
+    id,
     name,
     brand,
     category_id,
@@ -48,6 +53,7 @@ class CarsRepositoryInMemory implements ICarsRepository {
     const car = new Car();
 
     Object.assign(car, {
+      id,
       name,
       brand,
       category_id,
