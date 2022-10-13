@@ -106,8 +106,6 @@ describe('List Cars', () => {
       brand: car2.category_id,
     });
 
-    console.log(cars);
-
     expect(cars).toEqual([car2]);
   });
 });
